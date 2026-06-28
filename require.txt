@@ -1,0 +1,8 @@
+rapidocr-onnxruntime
+PyMuPDF
+python-docx
+python-pptx
+openpyxl
+beautifulsoup4
+lxml
+requests

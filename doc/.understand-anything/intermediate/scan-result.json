@@ -1,0 +1,49 @@
+{
+  "scriptCompleted": true,
+  "files": [
+    {
+      "path": ".understand-anything/intermediate/batches.json",
+      "language": "json",
+      "sizeLines": 51,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".understand-anything/intermediate/scan-result.json",
+      "language": "json",
+      "sizeLines": 48,
+      "fileCategory": "config"
+    },
+    {
+      "path": "mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "language": "markdown",
+      "sizeLines": 133,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "report/2026-06-28-10-52-47-test_input.txt.md",
+      "language": "markdown",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "test/2026-06-28-test.md",
+      "language": "markdown",
+      "sizeLines": 1,
+      "fileCategory": "docs"
+    }
+  ],
+  "totalFiles": 5,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "small",
+  "stats": {
+    "filesScanned": 5,
+    "byCategory": {
+      "config": 2,
+      "docs": 3
+    },
+    "byLanguage": {
+      "json": 2,
+      "markdown": 3
+    }
+  }
+}

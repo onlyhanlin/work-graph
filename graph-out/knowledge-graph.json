@@ -1,0 +1,948 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "work-graph",
+    "languages": [],
+    "frameworks": [],
+    "description": "知识图谱管理日常工作",
+    "analyzedAt": "2026-06-28T12:33:34.226535",
+    "gitCommitHash": ""
+  },
+  "nodes": [
+    {
+      "id": "document:.understand-anything/intermediate/batches.json",
+      "type": "document",
+      "name": "batches.json",
+      "filePath": ".understand-anything/intermediate/batches.json",
+      "summary": "{   \"schemaVersion\": 1,   \"algorithm\": \"louvain\",   \"totalFiles\": 5,   \"totalBatches\": 1,   \"exportsByPath\": {},   \"batches\": [     {       \"batchIndex\": 1,       \"files\": [         {           \"path\": \".understand-anything/intermediate/batches.json\",           \"language\": \"json\",           \"sizeLin",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:json",
+      "type": "concept",
+      "name": "json",
+      "summary": "关键词: json",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:test",
+      "type": "concept",
+      "name": "test",
+      "summary": "关键词: test",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:path",
+      "type": "concept",
+      "name": "path",
+      "summary": "关键词: path",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:language",
+      "type": "concept",
+      "name": "language",
+      "summary": "关键词: language",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:sizelines",
+      "type": "concept",
+      "name": "sizelines",
+      "summary": "关键词: sizelines",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:filecategory",
+      "type": "concept",
+      "name": "filecategory",
+      "summary": "关键词: filecategory",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:understand",
+      "type": "concept",
+      "name": "understand",
+      "summary": "关键词: understand",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:anything",
+      "type": "concept",
+      "name": "anything",
+      "summary": "关键词: anything",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:intermediate",
+      "type": "concept",
+      "name": "intermediate",
+      "summary": "关键词: intermediate",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:batches",
+      "type": "concept",
+      "name": "batches",
+      "summary": "关键词: batches",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/batches.json#schemaVersion",
+      "type": "concept",
+      "name": "schemaVersion",
+      "summary": "章节: schemaVersion",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/batches.json#algorithm",
+      "type": "concept",
+      "name": "algorithm",
+      "summary": "章节: algorithm",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/batches.json#totalFiles",
+      "type": "concept",
+      "name": "totalFiles",
+      "summary": "章节: totalFiles",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/batches.json#totalBatches",
+      "type": "concept",
+      "name": "totalBatches",
+      "summary": "章节: totalBatches",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/batches.json#exportsByPath",
+      "type": "concept",
+      "name": "exportsByPath",
+      "summary": "章节: exportsByPath",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/batches.json#batches",
+      "type": "concept",
+      "name": "batches",
+      "summary": "章节: batches",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.understand-anything/intermediate/scan-result.json",
+      "type": "document",
+      "name": "scan-result.json",
+      "filePath": ".understand-anything/intermediate/scan-result.json",
+      "summary": "{   \"scriptCompleted\": true,   \"files\": [     {       \"path\": \".understand-anything/intermediate/batches.json\",       \"language\": \"json\",       \"sizeLines\": 51,       \"fileCategory\": \"config\"     },     {       \"path\": \".understand-anything/intermediate/scan-result.json\",       \"language\": \"json\",  ",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:markdown",
+      "type": "concept",
+      "name": "markdown",
+      "summary": "关键词: markdown",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:docs",
+      "type": "concept",
+      "name": "docs",
+      "summary": "关键词: docs",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:config",
+      "type": "concept",
+      "name": "config",
+      "summary": "关键词: config",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/scan-result.json#scriptCompleted",
+      "type": "concept",
+      "name": "scriptCompleted",
+      "summary": "章节: scriptCompleted",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/scan-result.json#files",
+      "type": "concept",
+      "name": "files",
+      "summary": "章节: files",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/scan-result.json#totalFiles",
+      "type": "concept",
+      "name": "totalFiles",
+      "summary": "章节: totalFiles",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/scan-result.json#filteredByIgnore",
+      "type": "concept",
+      "name": "filteredByIgnore",
+      "summary": "章节: filteredByIgnore",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/scan-result.json#estimatedComplexity",
+      "type": "concept",
+      "name": "estimatedComplexity",
+      "summary": "章节: estimatedComplexity",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "section:.understand-anything/intermediate/scan-result.json#stats",
+      "type": "concept",
+      "name": "stats",
+      "summary": "章节: stats",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "type": "document",
+      "name": "2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "filePath": "mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "summary": "--- 文件来源: C:\\Users\\zhang\\Downloads\\详细了解更新后的《服务条款》.eml 文件类型: mail 转换时间: 2026-06-28 11:00:38 ---  主题: 详细了解更新后的《服务条款》 发件人: Google <google-noreply@google.com> 收件人: zhanghanlin1981@126.com 日期: Thu, 25 Jun 2026 04:09:00 -0700  ---  zhanghanlin1981@126.com  我们每隔几年就会更新一次《服务条款》。在此提前通知您，下次更新时间为 2026 年 7 月 30 ",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "person:google-noreply@google.com",
+      "type": "person",
+      "name": "Google",
+      "summary": "发件人: Google",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "person:zhanghanlin1981@126.com",
+      "type": "person",
+      "name": "zhanghanlin1981@126.com",
+      "summary": "收件人: zhanghanlin1981@126.com",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "date:2026-06-25",
+      "type": "date",
+      "name": "2026-06-25",
+      "summary": "邮件日期: 2026-06-25",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:详细了解更新后的",
+      "type": "concept",
+      "name": "详细了解更新后的",
+      "summary": "关键词: 详细了解更新后的",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:服务条款",
+      "type": "concept",
+      "name": "服务条款",
+      "summary": "关键词: 服务条款",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:google",
+      "type": "concept",
+      "name": "google",
+      "summary": "关键词: google",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:eea",
+      "type": "concept",
+      "name": "eea",
+      "summary": "关键词: eea",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:一般变更",
+      "type": "concept",
+      "name": "一般变更",
+      "summary": "关键词: 一般变更",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:服务",
+      "type": "concept",
+      "name": "服务",
+      "summary": "关键词: 服务",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:zhanghanlin",
+      "type": "concept",
+      "name": "zhanghanlin",
+      "summary": "关键词: zhanghanlin",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:我们每隔几年就会更新一次",
+      "type": "concept",
+      "name": "我们每隔几年就会更新一次",
+      "summary": "关键词: 我们每隔几年就会更新一次",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:在此提前通知您",
+      "type": "concept",
+      "name": "在此提前通知您",
+      "summary": "关键词: 在此提前通知您",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "type": "document",
+      "name": "2026-06-28-10-52-47-test_input.txt.md",
+      "filePath": "report/2026-06-28-10-52-47-test_input.txt.md",
+      "summary": "--- 文件来源: test_input.txt 文件类型: report 转换时间: 2026-06-28 10:52:47 ---  ﻿项目周报内容：完成用户认证模块开发，修复数据库连接问题，优化API响应速度。相关人员：张三、李四。参考链接：https://docs.example.com。日期：2026-06-28。 ",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "person:张三",
+      "type": "person",
+      "name": "张三",
+      "summary": "相关人员: 张三",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "person:李四",
+      "type": "person",
+      "name": "李四",
+      "summary": "相关人员: 李四",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "date:2026-06-28",
+      "type": "date",
+      "name": "2026-06-28",
+      "summary": "报告日期: 2026-06-28",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "reference:https://docs.example.com",
+      "type": "reference",
+      "name": "https://docs.example.com",
+      "summary": "参考链接: https://docs.example.com",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:项目周报内容",
+      "type": "concept",
+      "name": "项目周报内容",
+      "summary": "关键词: 项目周报内容",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:完成用户认证模块开发",
+      "type": "concept",
+      "name": "完成用户认证模块开发",
+      "summary": "关键词: 完成用户认证模块开发",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:修复数据库连接问题",
+      "type": "concept",
+      "name": "修复数据库连接问题",
+      "summary": "关键词: 修复数据库连接问题",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:优化",
+      "type": "concept",
+      "name": "优化",
+      "summary": "关键词: 优化",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:api",
+      "type": "concept",
+      "name": "api",
+      "summary": "关键词: api",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:响应速度",
+      "type": "concept",
+      "name": "响应速度",
+      "summary": "关键词: 响应速度",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:相关人员",
+      "type": "concept",
+      "name": "相关人员",
+      "summary": "关键词: 相关人员",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:张三",
+      "type": "concept",
+      "name": "张三",
+      "summary": "关键词: 张三",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:李四",
+      "type": "concept",
+      "name": "李四",
+      "summary": "关键词: 李四",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:参考链接",
+      "type": "concept",
+      "name": "参考链接",
+      "summary": "关键词: 参考链接",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:test/2026-06-28-test.md",
+      "type": "document",
+      "name": "2026-06-28-test.md",
+      "filePath": "test/2026-06-28-test.md",
+      "summary": "﻿测试文档内容 ",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:测试文档内容",
+      "type": "concept",
+      "name": "测试文档内容",
+      "summary": "关键词: 测试文档内容",
+      "description": "",
+      "tags": [],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:json",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:test",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:path",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:language",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:sizelines",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:filecategory",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:understand",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:anything",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:intermediate",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "concept:batches",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "section:.understand-anything/intermediate/batches.json#schemaVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "section:.understand-anything/intermediate/batches.json#algorithm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "section:.understand-anything/intermediate/batches.json#totalFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "section:.understand-anything/intermediate/batches.json#totalBatches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "section:.understand-anything/intermediate/batches.json#exportsByPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/batches.json",
+      "target": "section:.understand-anything/intermediate/batches.json#batches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:path",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:json",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:language",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:sizelines",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:filecategory",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:markdown",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:docs",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:config",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:test",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "concept:understand",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "section:.understand-anything/intermediate/scan-result.json#scriptCompleted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "section:.understand-anything/intermediate/scan-result.json#files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "section:.understand-anything/intermediate/scan-result.json#totalFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "section:.understand-anything/intermediate/scan-result.json#filteredByIgnore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "section:.understand-anything/intermediate/scan-result.json#estimatedComplexity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:.understand-anything/intermediate/scan-result.json",
+      "target": "section:.understand-anything/intermediate/scan-result.json#stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "person:google-noreply@google.com",
+      "target": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "type": "sent",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "person:zhanghanlin1981@126.com",
+      "type": "received",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "date:2026-06-25",
+      "type": "dated",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:详细了解更新后的",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:服务条款",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:google",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:eea",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:一般变更",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:服务",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:zhanghanlin",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:我们每隔几年就会更新一次",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:mail/2026-06-28-11-00-38-详细了解更新后的《服务条款》.eml.md",
+      "target": "concept:在此提前通知您",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:项目周报内容",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:完成用户认证模块开发",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:修复数据库连接问题",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:优化",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:api",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:响应速度",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:相关人员",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:张三",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:李四",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "concept:参考链接",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "person:张三",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "person:李四",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "reference:https://docs.example.com",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "document:report/2026-06-28-10-52-47-test_input.txt.md",
+      "target": "date:2026-06-28",
+      "type": "dated",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "document:test/2026-06-28-test.md",
+      "target": "concept:测试文档内容",
+      "type": "mentions",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ],
+  "layers": [],
+  "tour": []
+}
