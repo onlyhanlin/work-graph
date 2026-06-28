@@ -14,6 +14,7 @@ work-graph - 使用知识图谱管理日常工作的工具
 命令:
     init                    初始化项目，安装依赖
     read <文件路径> -type <文件类型>    读取文件并转换为markdown
+    read folder <目录路径>           批量读取目录下所有文档（自动识别类型）
     read -mail [-list <数量>] [-id <邮件ID>] [-subject <主题>] [-latest <数量>]   读取邮箱邮件
     chat -type <文件类型>              与AI聊天并保存内容
     build                   构建知识图谱（全量/增量）
@@ -28,6 +29,7 @@ work-graph - 使用知识图谱管理日常工作的工具
 
 示例:
     work-graph init
+    work-graph read folder ./documents/             # 批量读取目录
     work-graph read ./report.pdf -type report      # 读取PDF
     work-graph read ./document.docx -type document # 读取Word
     work-graph read ./slides.pptx -type meeting    # 读取PPT
@@ -91,10 +93,17 @@ def parse_args():
     elif command == 'read':
         if len(sys.argv) < 3:
             print("用法: work-graph read <文件路径> -type <文件类型>")
+            print("用法: work-graph read folder <目录路径>")
             print("用法: work-graph read -mail [-list <数量>] [-id <邮件ID>] [-subject <主题>] [-latest <数量>]")
             sys.exit(1)
         
-        if sys.argv[2] == '-mail':
+        if sys.argv[2] == 'folder':
+            if len(sys.argv) < 4:
+                print("用法: work-graph read folder <目录路径>")
+                sys.exit(1)
+            from folder import run as folder_run
+            folder_run(sys.argv[3])
+        elif sys.argv[2] == '-mail':
             from mail import run as mail_run
             mail_args = sys.argv[3:]
             mail_run(mail_args)
