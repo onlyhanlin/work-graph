@@ -43,17 +43,32 @@ work-graph init
 ### 2. 读取文件
 
 ```bash
+# 批量读取目录（自动识别文件类型）
+work-graph read folder ./documents/
+
 # 读取PDF文档
 work-graph read ./report.pdf -type report
 
 # 读取Word文档
 work-graph read ./document.docx -type document
 
+# 读取PPT文档
+work-graph read ./slides.pptx -type meeting
+
+# 读取Excel文档
+work-graph read ./data.xlsx -type report
+
 # 读取图片（自动OCR识别）
 work-graph read ./image.png -type image
 
 # 读取HTML文件
 work-graph read ./page.html -type web
+
+# 读取邮件文件
+work-graph read ./mail.eml -type mail
+
+# 读取IMAP远程邮件
+work-graph read -mail -latest 5
 ```
 
 ### 3. 聊天保存
